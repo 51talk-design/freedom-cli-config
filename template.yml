@@ -1,1 +1,25 @@
-
+tsVue:
+  tplName: freedom-template-vue
+  description: Vue多页面工程模板
+zepto:
+  tplName: freedom-template-zeptoMobile
+  description: zepto移动端多页面工程模板
+wepy:
+  tplName: freedom-template-wepy
+  type: wepy
+  description: 基于wepy的微信小程序工程模板
+multiDevice:
+  tplName: freedom-template-vue-multiDevice
+  type: multiDevice
+  description: VUE工程模板(PC+H5多端)
+vueComponent:
+  tplName: freedom-template-vue-component
+  type: vueComponent
+  npmDomain: 51npm
+  description: 组件工程模板
+tsKoa:
+  tplName: freedom-template-tsKoa
+  description: 基于TypeScript+Koa开发的node服务端项目工程模板
+tsExpress:
+  tplName: freedom-template-tsExpress
+  description: 基于TypeScript+Express开发的node服务端项目工程模板
