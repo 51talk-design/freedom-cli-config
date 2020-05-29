@@ -1,23 +1,17 @@
-freedom-middleware-modulecli:
-  name: '@51npm/freedom-middleware-modulecli'
-  cli: true
-  version: 
-  global: true
-  description: 积木系统模块开发工具、中间件
 freedom-middleware-webpack2:
-  name: '@nat/freedom-middleware-webpack2'
+  name: '@51npm/freedom-middleware-webpack2'
   cli: false
   version: 
   global: false
   description: webpack2用于前端开发环境的搭建，前端项目的构建
 freedom-middleware-webpack4:
-  name: '@nat/freedom-middleware-webpack4'
+  name: '@51npm/freedom-middleware-webpack4'
   cli: false
   version: 
   global: false
   description: webpack4用于前端开发环境的搭建，前端项目的构建
 freedom-middleware-publish:
-  name: '@nat/freedom-middleware-publish'
+  name: '@51npm/freedom-middleware-publish'
   cli: false
   version: 
   global: false
@@ -29,7 +23,7 @@ freedom-middleware-mock2easy:
   global: false
   description: 用于管理后端数据接口，提供mock数据
 freedom-middleware-tstypedi:
-  name: '@nat/freedom-middleware-tstypedi'
+  name: '@51npm/freedom-middleware-tstypedi'
   cli: false
   version: 
   global: false
@@ -41,25 +35,19 @@ freedom-middleware-serve:
   global: false
   description: 提供本地前端项目预览环境
 freedom-middleware-makefile:
-  name: '@nat/freedom-middleware-makefile'
+  name: '@51npm/freedom-middleware-makefile'
   cli: false
   version: 
   global: false
   description: 自动生成项目中需要的开发文件中间件【开发中......】
-freedom-middleware-mpvuebuild:
-  name: '@nat/freedom-middleware-mpvuebuild'
-  cli: false
-  version: 
-  global: false
-  description: 基于mpvue框架开发小程序的构建中间件【开发中......】
 freedom-middleware-eslint:
-  name: '@nat/freedom-middleware-eslint'
+  name: '@51npm/freedom-middleware-eslint'
   cli: false
   version: 
   global: false
   description: 源码规范校验中间件【开发中......】
 freedom-middleware-test:
-  name: '@nat/freedom-middleware-test'
+  name: '@51npm/freedom-middleware-test'
   cli: false
   version: 
   global: false
