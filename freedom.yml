@@ -2,12 +2,12 @@ dev:
   - name:
     script:
       - cnpm install
-  - name: '@nat/freedom-middleware-mock2easy'
+  - name: '@51npm/freedom-middleware-mock2easy'
     version: 
     before: 
     args:
       port: 8080
-  - name: '@nat/freedom-middleware-webpack4'
+  - name: '@51npm/freedom-middleware-webpack4'
     version: 
     before: 
     args:
@@ -25,13 +25,13 @@ build:
   - name: 
     script: 
       - cnpm install
-  - name: '@nat/freedom-middleware-webpack4'
+  - name: '@51npm/freedom-middleware-webpack4'
     version: 
     before: 
     args:
       projectID: ${projectID}
       env: prod
-      publicPath: //cdn.51talk.com/apollo/${projectName}/
+      publicPath: //freedom.demo.com/apollo/${projectName}/
       build: build/apollo/${projectName}/
       bundleAnalyzerReportPort: 
       specialVersion: 
@@ -39,7 +39,7 @@ serve:
   - name: 
     script:
       - cnpm install
-  - name: '@nat/freedom-middleware-webpack4'
+  - name: '@51npm/freedom-middleware-webpack4'
     version: 
     before: 
     args:
@@ -49,7 +49,7 @@ serve:
       build: build
       bundleAnalyzerReportPort: 
       specialVersion: 
-  - name: '@nat/freedom-middleware-mock2easy'
+  - name: '@51npm/freedom-middleware-mock2easy'
     version: 
     before: 
     args:
