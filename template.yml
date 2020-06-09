@@ -1,12 +1,12 @@
-tsVueMobile:
-  tplName: freedom-template-vue
+mobileVue:
+  tplName: freedom-template-mobilevue
   description: 基于Vue框架的移动端多页面工程模板
 zeptoMobile:
   tplName: freedom-template-zeptoMobile
   description: zepto移动端多页面工程模板
 tsReactMobile:
   tplName: freedom-template-react
-  description: 基于React框架的移动端多页面工程模板
+  description: 基于React框架的移动端多页面工程模板,整理中......
 tsKoa:
   tplName: freedom-template-tsKoa
   description: 基于TypeScript+Koa开发的node服务端项目工程模板
