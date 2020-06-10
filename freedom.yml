@@ -14,6 +14,9 @@ dev:
       port: 3333
       env: dev
       publicPath: //localhost:3333
+      srcDir: src
+      entryDir: /scripts/entry
+      specialVersion: 
       build:  
       proxy:
         context:
@@ -32,23 +35,16 @@ build:
       projectID: ${projectID}
       env: prod
       publicPath: //freedom.demo.com/apollo/${projectName}/
+      srcDir: src
+      entryDir: /scripts/entry
+      specialVersion: 
       build: build/apollo/${projectName}/
       bundleAnalyzerReportPort: 
       specialVersion: 
 serve:
   - name: 
     script:
-      - cnpm install
-  - name: '@51npm/freedom-middleware-webpack4'
-    version: 
-    before: 
-    args:
-      projectID: ${projectID}
-      env: prod
-      publicPath: 
-      build: build
-      bundleAnalyzerReportPort: 
-      specialVersion: 
+      - fm build
   - name: '@51npm/freedom-middleware-mock2easy'
     version: 
     before: 
