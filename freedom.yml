@@ -40,11 +40,22 @@ build:
       specialVersion: 
       build: ./build/apollo/${projectName}/
       bundleAnalyzerReportPort: 
-      specialVersion: 
 serve:
   - name: 
     script:
-      - fm build
+      - cnpm install
+  - name: '@51npm/freedom-middleware-webpack4'
+    version: 
+    before: 
+    args:
+      projectID: ${projectID}
+      env: prod
+      publicPath: //freedom.demo.com/apollo/${projectName}/
+      srcDir: src
+      entryDir: ./src/scripts/entry
+      specialVersion: 
+      build: build
+      bundleAnalyzerReportPort: 
   - name: '@51npm/freedom-middleware-mock2easy'
     version: 
     before: 
