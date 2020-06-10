@@ -15,7 +15,7 @@ dev:
       env: dev
       publicPath: //localhost:3333
       srcDir: src
-      entryDir: /scripts/entry
+      entryDir: ./src/scripts/entry
       specialVersion: 
       build:  
       proxy:
@@ -36,9 +36,9 @@ build:
       env: prod
       publicPath: //freedom.demo.com/apollo/${projectName}/
       srcDir: src
-      entryDir: /scripts/entry
+      entryDir: ./src/scripts/entry
       specialVersion: 
-      build: build/apollo/${projectName}/
+      build: ./build/apollo/${projectName}/
       bundleAnalyzerReportPort: 
       specialVersion: 
 serve:
