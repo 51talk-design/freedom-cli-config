@@ -1,5 +1,5 @@
 - name: 'core-js'
-  version: '2.6.10'
+  version: '^2.6.10'
 - name: 'vue-server-renderer'
   version: '2.5.17'
 - name: 'vue'
